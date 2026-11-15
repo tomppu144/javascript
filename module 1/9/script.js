@@ -1,4 +1,4 @@
-const number = Number(prompt("Give a number"));
+const number = Number(prompt("Number"));
 
 let isPrime = Number.isInteger(number) && number > 1;
 

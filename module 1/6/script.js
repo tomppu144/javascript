@@ -1,5 +1,5 @@
 if (confirm("Should I calculate the square root?")) {
-    const number = Number(prompt("Give a number"));
+    const number = Number(prompt("Number"));
 
     if (number < 0) {
         document.querySelector("#result").textContent =

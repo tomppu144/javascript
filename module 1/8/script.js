@@ -1,5 +1,5 @@
-const first_year = Number(prompt("Enter the first year:"));
-const second_year = Number(prompt("Enter the second year:"));
+const first_year = Number(prompt("First year:"));
+const second_year = Number(prompt("Second year:"));
 
 const startYear = Math.min(first_year, second_year);
 const endYear = Math.max(first_year, second_year);

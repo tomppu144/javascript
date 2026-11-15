@@ -1,5 +1,5 @@
-const dice = Number(prompt("Enter the number of dice:"));
-const targetSum = Number(prompt("Enter the desired sum:"));
+const dice = Number(prompt("Number of dice:"));
+const targetSum = Number(prompt("Desired sum:"));
 
 const rolls = 10000;
 let success = 0;
