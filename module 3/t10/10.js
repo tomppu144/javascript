@@ -1,0 +1,10 @@
+const form = document.querySelector('#source');
+const target = document.querySelector('#target');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const firstName = form.querySelector('input[name="firstname"]').value;
+  const lastName = form.querySelector('input[name="lastname"]').value;
+  target.textContent = `Your name is ${firstName} ${lastName}`;
+});
